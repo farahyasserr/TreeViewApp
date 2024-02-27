@@ -4,7 +4,7 @@ import styles from './CheckBoxItem.styles';
 import {NestedItem} from '../../types/Products';
 import {Check} from 'lucide-react-native';
 import {colors} from '../../theme/Colors';
-import ExpandCategoryIcon from './ExpandCategoryIcon';
+import ExpandCategoryIcon from '../ExpandIcon';
 
 interface Props {
   data: NestedItem;

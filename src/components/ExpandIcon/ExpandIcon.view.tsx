@@ -1,6 +1,6 @@
 import React from 'react';
 import {TouchableOpacity} from 'react-native';
-import {colors} from '../../../theme/Colors';
+import {colors} from '../../theme/Colors';
 import {MinusCircle, PlusCircle} from 'lucide-react-native';
 
 interface Props {
@@ -8,9 +8,7 @@ interface Props {
   onPressExpand: () => void;
 }
 
-function ExpandCategoryIcon(props: Props) {
-  const {isExpanded, onPressExpand} = props;
-
+function ExpandCategoryIcon({isExpanded, onPressExpand}: Props) {
   return (
     <TouchableOpacity onPress={onPressExpand}>
       {isExpanded ? (
