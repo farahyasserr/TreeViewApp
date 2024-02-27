@@ -30,7 +30,7 @@ export const unselectItemAndItsChildren = (
   return result;
 };
 
-const getChildren = (item: NestedItem) => {
+export const getChildren = (item: NestedItem) => {
   let childrenIds: any = [];
 
   if (item.elements) {
