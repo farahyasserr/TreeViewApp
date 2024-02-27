@@ -1,8 +1,8 @@
 import React from 'react';
 import {FlatList, Text} from 'react-native';
-import CheckBoxItem from '../CheckBoxItem/CheckBoxItem.view';
 import {NestedItem} from '../../types/Products';
 import styles from './TreeView.styles';
+import {CheckBoxItem} from '..';
 
 interface Props {
   list: NestedItem[];

@@ -4,7 +4,7 @@ import styles from './CheckBoxItem.styles';
 import {NestedItem} from '../../types/Products';
 import {Check} from 'lucide-react-native';
 import {colors} from '../../theme/Colors';
-import ExpandCategoryIcon from '../ExpandIcon';
+import {ExpandIcon} from '..';
 
 interface Props {
   data: NestedItem;
@@ -37,10 +37,7 @@ function CheckBoxItem({data, onSelectCheckBox, selectedItems}: Props) {
       <View style={styles.itemContainer}>
         <View style={styles.subContainer}>
           {isParent && (
-            <ExpandCategoryIcon
-              isExpanded={isExpanded}
-              onPressExpand={onPressExpand}
-            />
+            <ExpandIcon isExpanded={isExpanded} onPressExpand={onPressExpand} />
           )}
           <Text style={styles.title}>{data.title}</Text>
         </View>

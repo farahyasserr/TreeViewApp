@@ -2,9 +2,7 @@ import React from 'react';
 import {View} from 'react-native';
 import styles from './HomeScreen.styles';
 import {NestedItem} from '../../types/Products';
-import EmptyList from '../../components/EmptyList';
-import TreeView from '../../components/TreeView';
-
+import {EmptyList, TreeView} from '../../components';
 interface Props {
   productsList: NestedItem[];
 }
