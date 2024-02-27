@@ -1,15 +1,17 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
 import styles from './HomeScreen.styles';
+import {NestedItem} from '../../types/Products';
+import EmptyList from '../../components/TreeView/EmptyList';
+import TreeView from '../../components/TreeView';
 
-interface Props {}
-
-function HomeScreenView(props: Props) {
-  const {} = props;
-
+interface Props {
+  productsList: NestedItem[];
+}
+function HomeScreenView({productsList}: Props) {
   return (
     <View style={styles.mainContainer}>
-      <Text>Home Screen</Text>
+      {productsList ? <TreeView list={productsList} /> : <EmptyList />}
     </View>
   );
 }

@@ -1,12 +1,11 @@
 import React from 'react';
 import HomeScreenView from './HomeScreen.view';
+import {productMockData} from '../../data/Products';
 
-interface Props {}
+function HomeScreen() {
+  const productsData = productMockData.categories;
 
-function HomeScreen(props: Props) {
-  const {} = props;
-
-  return <HomeScreenView />;
+  return <HomeScreenView productsList={productsData} />;
 }
 
 export default HomeScreen;
