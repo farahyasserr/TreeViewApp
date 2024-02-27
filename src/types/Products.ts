@@ -1,9 +1,9 @@
-export interface Item {
+export interface NestedItem {
   id: number;
   title: string;
-  elements?: Item[];
+  elements?: NestedItem[];
 }
 
 export interface ProductData {
-  categories: Item[];
+  categories: NestedItem[];
 }
