@@ -51,11 +51,11 @@ yarn android
 yarn ios
 ```
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-# Screenshot
-![simulator_screenshot_ADDC7A06-01AF-45BC-BA58-8222ADC245F1](https://github.com/farahyasserr/TreeViewApp/assets/47539863/aafb33ea-2ec8-4a5a-a04d-2f32a55e2180)
-
-
-
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+
+# Tree View UI
+  <img src="https://github.com/farahyasserr/TreeViewApp/assets/47539863/aafb33ea-2ec8-4a5a-a04d-2f32a55e2180" alt="simulator_screenshot_ADDC7A06-01AF-45BC-BA58-8222ADC245F1" width="300" />
+
+
+
 
