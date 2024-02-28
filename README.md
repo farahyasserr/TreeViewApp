@@ -18,6 +18,16 @@ This project includes unit testing using Jest to ensure the reliability and corr
 yarn test
 ```
 
+# Future work
+These are some enhancements that can be done in the future depending on the required UI and functionality and use across the app
+Tree view component can be more customizable by sending the following props instead of having them enforced in the tree view component:
+- Expand Icon (whether it's there or not and how it looks like)
+- Checkbox Icon (whether it's there or not and how it looks like)
+- Indentation percentage of every level
+- Can add title for every level if required
+- Styling prop for the tree view item container
+- Styling prop for the title
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions, before proceeding.
